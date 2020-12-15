@@ -66,7 +66,10 @@ module ITerm
     <<-EOF
     tell application "iTerm"
       try
-        set mySession to the current session of the current window
+        tell last tab of current window
+            set mySession to the last item of sessions
+            select
+        end tell
       on error
         tell the current window to create tab with default profile
         set mySession to the current session of the current window
