@@ -31,3 +31,6 @@ map <D-l> :RunItermSpecLine<cr>
 map <D-R> :RunItermSpringSpec<cr>
 map <D-L> :RunItermSpringSpecLine<cr>
 ```
+
+### In this fork
+* Choose the last tab on iterm for my own flow.
